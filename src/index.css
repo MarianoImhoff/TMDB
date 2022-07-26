@@ -1,0 +1,38 @@
+:root {
+  --gradient: linear-gradient(to left top, #DD2476 10%, #FF512F 90%);
+}
+
+body {
+  background: #111 ;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a{text-decoration: none;}
+
+.nombreNav a{
+  text-decoration: none;
+  animation: anim 5s;
+  animation-iteration-count: infinite;
+}
+
+h3 {
+  
+  text-decoration: none;
+  animation: anim 5s;
+  animation-iteration-count: infinite;
+}
+
+
+
+
+

@@ -1,0 +1,175 @@
+.card {
+  background: #222;
+  border: 1px solid #dd2476;
+  color: rgba(250, 250, 250, 0.8);
+  margin-bottom: 2rem;
+}
+
+.btn {
+  border: 5px solid;
+  border-radius: 20px;
+  border-image-slice: 1;
+  background: var(--gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-image-source: var(--gradient);
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+
+.btn:hover,
+.btn:focus {
+  background: var(--gradient);
+  -webkit-background-clip: none;
+  -webkit-text-fill-color: #fff;
+  border: 5px solid #fff;
+  box-shadow: #222 1px 0 10px;
+  text-decoration: none;
+}
+
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  margin-bottom: 3rem;
+}
+
+.img {
+  border-radius: 10px;
+  height: 200px;
+  width: 100%;
+}
+
+.labels {
+  color: black;
+}
+
+
+
+.btnL {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+
+.bot {
+  margin-top: 5%;
+}
+
+
+
+.bot3 {
+  margin-top: 1%;
+  margin-left: 5%;
+}
+
+.search {
+  position: absolute;
+  right: 15%;
+  bottom: 35%;
+  left: 15%;
+  color: #fff;
+  text-align: center;
+}
+
+.btnC {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+
+.formSearch {
+  display: grid;
+  text-align: center;
+  background: content-box;
+  color: white;
+  font-size: xx-large;
+}
+
+.bsearch{
+  background: content-box;
+  text-align: center  ;
+  background-color:rgba(0,0,0,.3);
+  color: white;
+}
+
+
+.nav{
+  padding: 0;
+  width: 100%;
+  margin: auto;
+  height: 60px;
+  background-color:rgba(0,0,0,.1);
+
+}
+
+.divN{
+  display:flex
+}
+
+.nombreNav{
+  display:flex;
+  align-items: center;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 20em;
+  animation: a 6s;
+  animation-iteration-count: infinite;
+  padding-left: 50px;
+  text-decoration: none; 
+}
+
+@keyframes a{
+  from{ width:0;}
+  
+} 
+
+@keyframes anim {
+  from {color:white}
+  to {color:red;
+  }
+} 
+
+
+
+.subNav{
+  display:flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.subNav1{
+  margin-left: 50px;
+  margin-right: 10px;
+}
+
+.subNav2{
+  margin-left: 150px;
+  margin-right: 10px;
+}
+
+.subNav3{
+  margin-left: 50px;
+  margin-right: 10px;
+}
+
+.searchF{
+  color: white;
+  background: content-box;
+  text-align: center  ;
+  background-color:rgba(0,0,0,.3)
+}
+
+.regContainer {
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.register {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
